@@ -1,0 +1,7 @@
+<% provide :title, t(".help_title") %>
+<h1><%= t(".help_title")  %></h1>
+<p>
+  <%= t(".body_html",
+    tutorial_help: link_to(t(".tutorial_help"), t("link.tutorial_help")),
+    tutorial_book: link_to(t("static_pages.home.tutorial"), t("link.tutorial_book")))%>
+</p>

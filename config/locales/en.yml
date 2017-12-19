@@ -31,3 +31,48 @@
 
 en:
   hello: "Hello world"
+  ruby_on_rails: "ruby on rails"
+  link:
+    tutorial: "http://www.railstutorial.org/"
+    tutorial_book: "http://www.railstutorial.org/book"
+    tutorial_help: "http://www.railstutorial.org/help"
+    ruby_on_rails: "http://rubyonrails.org/"
+    screencast: "http://screencasts.railstutorial.org/"
+    contact: "http://www.railstutorial.org/contact"
+  layouts:
+      base_title: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      home_title: "Home"
+      home: "SampleApp"
+      tutorial: "Ruby on Rails Tutorials"
+      body_html: >
+        This is the home page for the
+        %{tutorial}
+        sample application.
+    help:
+      help_title: "Help"
+      tutorial_help: "Rails Tutorial help section"
+      body_html: >
+        Get help on the Ruby on Rails Tutorial at the
+        %{tutorial_help}
+        To get help on this sample app, see the
+        %{tutorial_book}.
+    about:
+      about_title: "About"
+      tutorial_book: "book"
+      screencast: "screencast series"
+      body_html: >
+        The %{tutorial} is a
+        %{tutorial_book} and
+        %{screencast}
+        to teach web development with
+        %{ruby_on_rails}.
+        This is the sample application for the tutorial.
+    contact:
+      contact_title: "Contact"
+      contact: "contact page"
+      body_html:
+        Contact the Ruby on Rails Tutorial about the sample app at the
+        %{contact}
+

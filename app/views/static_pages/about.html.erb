@@ -1,0 +1,9 @@
+<% provide :title, t(".about_title") %>
+<h1><%= t(".about_title")%></h1>
+<p>
+  <%= t ".body_html",
+    tutorial: link_to( tag.em( t("static_pages.home.tutorial")), t("link.tutorial")),
+    tutorial_book: link_to( t(".tutorial_book"), t("link.tutorial_book")),
+    screencast: link_to( t(".screencast"), t("link.screencast")),
+    ruby_on_rails: link_to( t("en.ruby_on_rails"), t("link.ruby_on_rails"))%>
+</p>
