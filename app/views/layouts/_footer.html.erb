@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t "layouts.ruby_tutorial_about_html",
+      ruby_on_rails: link_to( t(".ruby_on_rails"), t("link.tutorial")),
+      Michael_Hartl: link_to( t("layouts.michael"), t("link.michael"))%>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.about_title"), about_path %></li>
+      <li><%= link_to t("static_pages.contact.contact_title"), contact_path %></li>
+      <li><%= link_to t("layouts.news"), t("link.news")%></li>
+    </ul>
+  </nav>
+</footer>

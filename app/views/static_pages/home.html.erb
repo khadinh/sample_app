@@ -1,5 +1,13 @@
-<h1><%= t ".home" %></h1>
-<p>
-  <%= t(".body_html",
+<div class="center jumbotron">
+  <h1><%= t ".home" %></h1>
+
+  <h2>
+    <%= t(".body_html",
     tutorial: link_to(t(".tutorial"), t("link.tutorial")))%>
-</p>
+  </h2>
+
+  <%= link_to "Sign up now!", "#", class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+  t("link.ruby_on_rails") %>

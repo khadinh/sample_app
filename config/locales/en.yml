@@ -39,8 +39,19 @@ en:
     ruby_on_rails: "http://rubyonrails.org/"
     screencast: "http://screencasts.railstutorial.org/"
     contact: "http://www.railstutorial.org/contact"
+    news: "http://news.railstutorial.org/"
+    michael: "http://www.michaelhartl.com/"
   layouts:
       base_title: "Ruby on Rails Tutorial Sample App"
+      news: "News"
+      michael: "Michael_Hartl"
+      header: "SampleApp"
+      login: "Login"
+      ruby_tutorial_about_html: >
+        The
+        %{ruby_on_rails}
+        Tutorial by
+        %{Michael_Hartl}
   static_pages:
     home:
       home_title: "Home"
@@ -75,4 +86,3 @@ en:
       body_html:
         Contact the Ruby on Rails Tutorial about the sample app at the
         %{contact}
-
