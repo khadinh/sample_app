@@ -52,11 +52,21 @@ en:
         %{ruby_on_rails}
         Tutorial by
         %{Michael_Hartl}
+  error:
+    message: The form contains %{count}
+  flash:
+    success: "Welcome to the Sample App!"
+    find_user_fail: "User not exist. Please sign up!"
+  sign_up:
+    submit: "Create my account"
+    title: "Sign up"
+    confirmation: "Confirmation"
   static_pages:
     home:
       home_title: "Home"
       home: "SampleApp"
       tutorial: "Ruby on Rails Tutorials"
+      sign_up: "Sign up now!"
       body_html: >
         This is the home page for the
         %{tutorial}
