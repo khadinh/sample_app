@@ -47,6 +47,12 @@ en:
       michael: "Michael_Hartl"
       header: "SampleApp"
       login: "Login"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      log_in: "Log in"
       ruby_tutorial_about_html: >
         The
         %{ruby_on_rails}
@@ -57,10 +63,16 @@ en:
   flash:
     success: "Welcome to the Sample App!"
     find_user_fail: "User not exist. Please sign up!"
+    invalid_login: "Invalid email/password combination"
   sign_up:
     submit: "Create my account"
     title: "Sign up"
     confirmation: "Confirmation"
+  log_in:
+    title: "Log in"
+    description_html: >
+      New user?
+      %{sign_up}
   static_pages:
     home:
       home_title: "Home"
