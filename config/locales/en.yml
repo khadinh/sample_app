@@ -64,6 +64,9 @@ en:
     success: "Welcome to the Sample App!"
     find_user_fail: "User not exist. Please sign up!"
     invalid_login: "Invalid email/password combination"
+    not_login: "Please log in."
+    updated: "Profile updated"
+    deleted: "User deleted"
   sign_up:
     submit: "Create my account"
     title: "Sign up"
@@ -74,6 +77,16 @@ en:
     description_html: >
       New user?
       %{sign_up}
+  edit:
+    title: "Edit user"
+    header: "Update your profile"
+    confirmation: "Confirmation"
+    submit: "Save changes"
+    change: "Change"
+  index:
+    title: "All users"
+  delete:
+    confirm: "You sure?"
   static_pages:
     home:
       home_title: "Home"
