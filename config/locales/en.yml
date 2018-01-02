@@ -70,6 +70,7 @@ en:
     confirmation: "Confirmation"
   log_in:
     title: "Log in"
+    rememberme: "Remember me on this computer"
     description_html: >
       New user?
       %{sign_up}
