@@ -77,6 +77,7 @@ en:
   log_in:
     title: "Log in"
     rememberme: "Remember me on this computer"
+    forgot_pass: "(forgot password)"
     description_html: >
       New user?
       %{sign_up}
@@ -89,6 +90,10 @@ en:
     title: "All users"
   delete:
     confirm: "You sure?"
+  password_reset:
+    title: "Forgot password"
+    header: "Forgot password"
+    submit: "Submit"
   mailer:
     acc_activate_title: "Sample App"
     acc_activate_hi_html: >
