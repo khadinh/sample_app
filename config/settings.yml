@@ -3,3 +3,4 @@ max_name_length: 50
 min_password_length: 6
 gravatar_size: 80
 checked_rememberme: "1"
+gravatar_size_small: 50
