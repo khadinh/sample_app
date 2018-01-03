@@ -61,12 +61,15 @@ en:
   error:
     message: The form contains %{count}
   flash:
-    success: "Welcome to the Sample App!"
+    success: "Please check your email to activate your account."
     find_user_fail: "User not exist. Please sign up!"
     invalid_login: "Invalid email/password combination"
     not_login: "Please log in."
     updated: "Profile updated"
     deleted: "User deleted"
+    success_activated: "Account activated!"
+    fail_activated: "Invalid activation link"
+    warning_activate: "Account not activated. Check your email for the activation link."
   sign_up:
     submit: "Create my account"
     title: "Sign up"
@@ -86,6 +89,17 @@ en:
     title: "All users"
   delete:
     confirm: "You sure?"
+  mailer:
+    acc_activate_title: "Sample App"
+    acc_activate_hi_html: >
+      Hi
+      %{username}
+      ,
+    acc_activate_content: "Welcome to the Sample App! Click on the link below to activate your account:"
+    pass_reset_title: "User#password_reset"
+    pass_reset_content_html: >
+      %{greeting}
+      , find me in app/views/user_mailer/password_reset.html.erb
   static_pages:
     home:
       home_title: "Home"
